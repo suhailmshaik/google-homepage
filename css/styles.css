@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -15,5 +19,5 @@ ul {
 }
 
 #logo {
-    
+    padding-top: 14.4%;    
 }
