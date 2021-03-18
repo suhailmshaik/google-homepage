@@ -4,12 +4,16 @@ ul {
     padding: 0;
 }
 
-#nav-bar {
+#nav-bar li {
+    display:inline;
     float: right;
-    display: inline;
-  }
-  
-  a {
-    display: block;
     padding: 8px;
-  }
+}
+
+#nav-bar li:hover {
+    text-shadow: 0 0 1px  #696969;
+}
+
+#logo {
+    
+}
