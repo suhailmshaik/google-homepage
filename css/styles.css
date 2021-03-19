@@ -31,10 +31,6 @@ input[type=text] {
     border-radius: 21px;
 }
 
-/* input[type=text]:hover {
- box-shadow: 2px #696969;
-} */
-
 #search-box {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -44,6 +40,35 @@ input[type=text] {
     box-shadow: 2px #696969;
 }_
 
-#search-buttons {
+.buttons {
+    padding: 0 17;
+    margin: 12;
+}
+
+footer {
+float: bottom;    
+}
+
+/* mobile responsive */
+
+@media all and (max-width: 823px) {
+    input[type=text] {
+        height: 35px;
+        width: 90%;
+        border: 0.5px solid #696969;
+        border-radius: 21px;
+    }
     
+    #logo {
+        padding-top: 50%;    
+    }
+
+    img {
+    width: 55%;    
+    }
+
+    .buttons {
+        padding: 0 12px;
+        margin: 8 0;
+    }
 }
